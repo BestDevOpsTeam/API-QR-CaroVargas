@@ -1,0 +1,26 @@
+{
+    "name": "api-qr-CaroVargas",
+    "version": "1.0.0",
+    "description": "api de qr",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:BestDevOpsTeam/API-QR-CaroVargas.git"
+    },
+    "keywords": [
+      "qr"
+    ],
+    "author": "Carolina Vargas",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/BestDevOpsTeam/API-QR-CaroVargas/issues"
+    },
+    "homepage": "https://github.com/BestDevOpsTeam/API-QR-CaroVargas#readme",
+    "dependencies": {
+      "express": "^4.18.2",
+      "qrcode": "^1.5.1"
+    }
+  }
