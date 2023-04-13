@@ -1,6 +1,6 @@
 const express = require("express")
 const bodyParser = require('body-parser');
-const HTTP_PORT = 8080
+const HTTP_PORT = 8002
 const app = express();
 const qr = require('./qr.js');
 
@@ -31,3 +31,5 @@ app.post("/api/v1/qr", async (req, res, next) => {
 app.listen(HTTP_PORT, () => {
     console.log("Server running on port %PORT%".replace("%PORT%", HTTP_PORT))
 });
+
+module.exports = app;
